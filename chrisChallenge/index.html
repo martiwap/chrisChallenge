@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<!-- Bootstrap link-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- favicon set up -->
+	<script src="https://use.fontawesome.com/3d67bfe20e.js"></script>
+	<!-- Google font CDN -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+	<title>UI Design Challenge</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+<body>
+
+	<header>
+		<!-- Navigation Bar with Brand/logo and social fav-icons -->
+		<nav class="navbar navabar-fixed-top container-fluid">
+			<img class="navbar-brand" src="./resources/images/logo.png" id="logo">
+			<ul class="fa-ul nav navbar-nav navbar-right">
+				<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+
+		<!-- First container with main idea and message -->
+		<div class="firstTarget container">
+			<div class="col-sm-6">
+				<img src="./resources/images/iphone.png" id="phoneImg">
+			</div>
+			<div class="col-sm-6" id="head-text">
+				<h1>Make your life easier</h1>
+				<br>
+				<h1>Join the Penguings!</h1>
+				<br>
+				<div class="btnSection">
+					<button class="btn-info">Download (MacOS)</button>
+					<button class="btn-success">Download (Android)</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- First jumbotron with About Us section -->
+	<div class="container-fluid ">
+		<div class="col-md-7 aboutUs">
+			<h3>About Us </h3>
+			<br>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<br>
+			<button class="btn-info">Find Out More!</button>
+		</div>
+		<div class="col-md-5 phoneMap">
+			<img src="./resources/images/phoneImg.png" id="phoneMap">
+		</div>
+	</div>
+
+	<!-- Features section -->
+	<div class="container-fluid features">
+		<div class="Title">
+			<h3>Our Features</h3>
+		</div>
+		<div class="item col-md-4">
+			<img src="./resources/images/supportIcon.png" class="icon">
+			<h4>24/7 Support</h4>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+		</div>
+		<div class="item col-md-4">
+			<img src="./resources/images/friendlyIcon.png" class="icon">
+			<h4>User Friendly</h4>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+		</div>
+		<div class="item col-md-4">
+			<img src="./resources/images/notificationIcon.png" class="icon">
+			<h4>Notification</h4>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+		</div>
+		<div class="item col-md-4">
+			<img src="./resources/images/contactIcon.png" class="icon">
+			<h4>Chat with your contact</h4>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+		</div>
+		<div class="item col-md-4">
+			<img src="./resources/images/accessIcon.png" class="icon">
+			<h4>Accessibility</h4>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+		</div>
+		<div class="item col-md-4">
+			<img src="./resources/images/freeIcon.png" class="icon">
+			<h4>No charges anywhere</h4>
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+		</div>
+	</div>
+
+	<!-- Downloas section -->
+	<div class="container-fluid download">
+		<h3>Download for Free</h3>
+		<br>
+		<div class="col-md-6 textDownload">
+			<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<br>
+			<div class="btnSection">
+				<button class="btn-info">Download (MacOS)</button>
+				<button class="btn-success">Download (Android)</button>
+			</div>
+		</div>
+		<div class="col-md-6 downloadImg">
+			<img src="./resources/images/imagePhone.jpg" class="downloadImg">
+		</div>
+	</div>
+
+	<!-- Screen shot section -->
+	<div class="container-fluid screenshots">
+		<div class="Title">
+			<h3>Screenshots</h3>
+		</div>
+		<div class="container screenshots-picture">
+			<img src="./resources/images/imagesScreen.png" id="replaceCarousel">
+			<img src="./resources/images/imagesScreen.png" id="replaceCarousel">
+		</div>
+	</div>
+
+	<div class="container-fluid statistics">
+		<div class="Title">
+			<h3>Statistics</h3>
+		</div>
+
+		<div class="container data_stats">
+			<div class="col-6 col-sm-3 data">
+				<span>1.895</span>
+				<h5>Users</h5>
+			</div>
+			<div class="col-6 col-sm-3 data">
+				<span>456</span>
+				<h5>Calls</h5>
+			</div>
+			<div class="col-6 col-sm-3 data">
+				<span>23 K</span>
+				<h5>Like it</h5>
+			</div>
+			<div class="col-6 col-sm-3 data">
+				<span>100%</span>
+				<h5>Usability</h5>
+			</div>
+			<img src="" id="lineChart">
+		</div>		
+	</div>
+
+	<!-- How it works section -->
+	<div class="how container">
+		<div class="Title">
+			<h3>How It Works</h4>
+		</div>
+		<div class="col-sm-6 ">
+			<img src="./resources/images/phoneImg.png" id="phoneImg">
+		</div>
+		<div class="col-sm-6 register">
+			<h4>Register or Login</h5>
+			<br>
+			<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<br>
+		</div>
+		<button class="btn-info">Download</button>
+	</div>
+
+	<!-- App support and contact form -->
+	<div class="container-fluid support form">
+		<div class="Title">
+			<h3>App Support</h3>
+		</div>
+		<div class="col-md-7 sayHello">
+			<div class="text">
+				<h4>Say Hello</h4>
+				<br>
+				<form>
+					Full name:<br>
+  					<input type="text" name="name" placeholder="Your name"><br>
+  					Email:<br>
+  					<input type="email" name="email" placeholder="Email address "><br>
+  					Message:<br>
+  					<textarea name="comment" form="usrform" placeholder="What do you want to talk us about?"></textarea>
+				</form>
+			</div>		
+		</div>
+		<div class="col-md-5 contact">
+			<h4>Contact</h4>
+			<br>
+			<p>Phone<br>
+			+38 099 74 65 739<br>
+			+38 099 74 65 739<br>
+			</p>
+			<p>Email<br>
+			penstudios@penguin.com<br>
+			</p>
+		</div>
+	</div>
+
+	<!-- Testimonials -->
+	<div class="container-fluid testimonials">
+		<div class="Title">
+			<h3>Testimonials</h3>
+		</div>
+		<div class="col-sm-6 comment">
+			<span>
+				" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+			</span>	
+			<br>
+			<img src="" class="profile small">
+			<p class="authors-name">Yulia Milchell</p>
+		</div>
+		<div class="col-sm-6 comment">
+			<span>
+				" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+			</span>	
+			<br>
+			<img src="" class="profile small">
+			<p class="authors-name">Yulia Milchell</p>
+		</div>
+	</div>
+
+	<!-- Meet the team -->
+	<div class="container-fluid statistics">
+		<div class="Title">
+			<h3>Our Penguins Friend</h3>
+		</div>
+
+		<div class="container staff">
+			<div class="profile">
+				<img src="./resources/images/avatar3.png" id="profile-pic">
+				<p class="authors-name">Mr Zeno</p>
+			</div>
+			<div class="profile">
+				<img src="./resources/images/avatar3.png" id="profile-pic">
+				<p class="authors-name">Mr Frank Mio</p>
+			</div>
+			<div class="profile">
+				<img src="./resources/images/avatar3.png" id="profile-pic">
+				<p class="authors-name">Who La La</p>
+			</div>	
+		</div>		
+	</div>
+
+	<!-- Download section again -->
+	<div class="container-fluid download-footer">
+		<h3>Download for Free</h3>
+		<br>
+		<div class="btnSection">
+			<button class="btn-info">Download (MacOS)</button>
+			<button class="btn-success">Download (Android)</button>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="container-fluid footer">
+		<ul class="fa-ul footer">
+				<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			</ul>
+	</div>
+
+
+	<!-- Javascript for bootstrap --> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
