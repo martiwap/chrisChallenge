@@ -20,6 +20,16 @@ h3 {
 	text-align: center;
 }
 
+.grey80 {
+	background-color: #F5F5F5;
+}
+
+/* When the screen is less than 760, hide the following images */
+@media only screen and (max-width: 760px) {
+	#phoneImg, #phoneMap {
+		display: none;
+	}
+}
 
 
 /* Header and top bar */
@@ -89,7 +99,7 @@ p {
 
 /* Features section */
 .features {
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 .item {
 	text-align: center;
@@ -107,7 +117,7 @@ h4 {
 
 /* Download Section */
 .download {
-	background-color: darkgrey;
+	background-color: #DCDCDC;
 	height: 500px;
 }
 
@@ -124,19 +134,18 @@ h4 {
 }
 
 /* Screenshots, here there should be a image slider */
-.screenshots-picture {
-	display: inline-flex;
-}
+
 
 #replaceCarousel {
-	margin: 30px;
-	width: 50%;
+	width: 100%;
+	height: auto;
 }
 
 /* Statistics section */
 .data_stats {
 	font-weight: bold;
 	margin: 50px 80px;
+	display: inline-flex;`
 }
 
 .data_stats span {
@@ -156,7 +165,7 @@ h4 {
 
 /* How it works section */
 .register {
-	padding-top: 30px;
+	padding-top: 10%;
 }
 
 
@@ -168,6 +177,10 @@ h4 {
 
 .text {
 	padding-left: 120px;
+}
+
+.contact, .sayHello {
+	line-height: 1.4;
 }
 
 
