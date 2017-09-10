@@ -1,6 +1,6 @@
 /* universal */
 html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -165,7 +165,7 @@ h4 {
 
 /* How it works section */
 .register {
-	padding-top: 10%;
+	margin-top: 10%;
 }
 
 
